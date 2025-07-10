@@ -2,8 +2,6 @@
   --color-primary: #4e47ff;
   --color-primary-light: #716cff;
   --color-primary-dark: #3e39cc;
-  /* #4E47FF */
-  /* --color: rgba(77, 71, 255, 0.11); */
 
   --color-light-1: #ffffff;
 
@@ -68,14 +66,16 @@ button {
 .heading-tertiary {
   color: var(--color-dark-1);
   font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 .heading-primary {
   font-size: 5.2rem;
-  line-height: 1.2;
   margin-bottom: 2.5rem;
 }
 .heading-secondary {
   font-size: 4.4rem;
+  line-height: 1.1;
 }
 .heading-tertiary {
   font-size: 3.6rem;
@@ -99,4 +99,13 @@ button {
 
 .mb-big {
   margin-bottom: 10rem;
+}
+.mb-md {
+  margin-bottom: 5rem;
+}
+.mb-sm {
+  margin-bottom: 2rem;
+}
+.text-center {
+  text-align: center;
 }

@@ -54,3 +54,23 @@
   margin-left: auto;
 }
 /* ///////////////////////////////////////////////////////////// */
+.statistics {
+  background-color: rgba(77, 71, 255, 0.11);
+  border-radius: 2.4rem;
+  padding: 5rem 13rem;
+
+  text-align: center;
+}
+.statistics__count {
+  display: flex;
+  justify-content: space-between;
+}
+.count-item {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+.count-item p:first-child {
+  font-size: 7rem;
+  color: var(--color-primary);
+  line-height: 1;
+}
