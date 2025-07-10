@@ -3,11 +3,6 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  height: 80vh;
-}
-
-.header__container {
-  height: 100%;
 }
 
 .header__nav {
@@ -29,7 +24,7 @@
   align-items: center;
   justify-content: center;
 
-  height: 70%;
+  height: 40rem;
 }
 
 .hero__content {
