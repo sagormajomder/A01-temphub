@@ -32,3 +32,25 @@
   text-align: center;
 }
 /* ///////////////////////////////////////////////////////////// */
+.action {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.action__text {
+  flex: 1 1 40%;
+}
+.action__desc {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.action__img {
+  flex: 1 1 60%;
+}
+
+.action__img img {
+  border-radius: 4rem;
+  margin-left: auto;
+}
+/* ///////////////////////////////////////////////////////////// */

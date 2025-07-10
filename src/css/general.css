@@ -96,3 +96,7 @@ button {
 .btn:active {
   background-color: var(--color-primary-dark);
 }
+
+.mb-big {
+  margin-bottom: 10rem;
+}
