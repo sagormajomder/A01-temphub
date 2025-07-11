@@ -94,6 +94,7 @@ textarea {
 .btn:hover,
 .btn:active {
   background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
 }
 
 .mb-big {
