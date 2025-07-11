@@ -147,3 +147,46 @@
   border-radius: 4.8rem;
 }
 /* ///////////////////////////////////////////////////////////// */
+.touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.touch .heading-secondary {
+  font-size: 8rem;
+  flex-basis: 40%;
+}
+.touch__form {
+  font-family: var(--font-secondary);
+  flex-basis: 40%;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.touch__form input,
+.touch__form input,
+.touch__form textarea {
+  display: block;
+  color: inherit;
+  width: 100%;
+}
+.touch__form label {
+  font-weight: 500;
+  color: var(--color-dark-1);
+  font-size: 1.8rem;
+}
+.touch__form input,
+.touch__form textarea {
+  border: none;
+  outline: none;
+  padding: 1.5rem 2rem;
+
+  border-radius: 1rem;
+  border: 1px solid #d6dded;
+}
+.touch__form .btn {
+  color: var(--color-light-1);
+}
