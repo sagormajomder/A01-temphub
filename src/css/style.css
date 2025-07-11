@@ -172,7 +172,7 @@
   gap: 1.5rem;
 }
 .touch__form input,
-.touch__form input,
+.touch__form label,
 .touch__form textarea {
   display: block;
   color: inherit;
@@ -185,13 +185,20 @@
 }
 .touch__form input,
 .touch__form textarea {
-  border: none;
   outline: none;
   padding: 1.5rem 2rem;
 
   border-radius: 1rem;
   border: 1px solid #d6dded;
+
+  transition: 0.5s;
 }
+
+.touch__form input:focus,
+.touch__form textarea:focus {
+  border: 1px solid var(--color-primary);
+}
+
 .touch__form .btn {
   color: var(--color-light-1);
 }
