@@ -182,6 +182,7 @@
   font-weight: 500;
   color: var(--color-dark-1);
   font-size: 1.8rem;
+  margin-bottom: 4px;
 }
 .touch__form input,
 .touch__form textarea {
@@ -192,6 +193,8 @@
   border: 1px solid #d6dded;
 
   transition: 0.5s;
+
+  color: var(--color-dark-1);
 }
 
 .touch__form input:focus,

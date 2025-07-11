@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/wc-mini.png"
+      type="image/x-icon" />
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet" />
-    <title>TempHub</title>
+    <title>TempHub - Elevate Brand Presence</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./src/css/general.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
@@ -132,7 +136,7 @@
               </span>
             </div>
 
-            <p class="feedback_com">Loved by Designers</p>
+            <h4 class="feedback_com">Loved by Designers</h4>
             <p class="mb-sm">
               "This template instantly leveled up our presence.” – Studio Vertex
             </p>
@@ -210,7 +214,7 @@
               </span>
             </div>
 
-            <p class="feedback_com">Loved by Users</p>
+            <h4 class="feedback_com">Loved by Users</h4>
             <p class="mb-sm">
               "The quality and impact of our brand presentation instantly
               elevated.” – Dardio
@@ -289,7 +293,7 @@
               </span>
             </div>
 
-            <p class="feedback_com">Loved by Stakeholder</p>
+            <h4 class="feedback_com">Loved by Stakeholders</h4>
             <p class="mb-sm">
               "Implementing this template elevated stakeholder perception.” –
               Acallo Ltd
@@ -323,7 +327,8 @@
               type="email"
               name=""
               id="email"
-              placeholder="example@gmail.com" />
+              placeholder="example@gmail.com"
+              required />
           </div>
           <div>
             <label for="name">Name</label>
@@ -331,7 +336,11 @@
           </div>
           <div>
             <label for="msg">Message</label>
-            <textarea name="" id="msg">Write Your Message</textarea>
+            <textarea
+              placeholder="Write Your Message"
+              name=""
+              required
+              id="msg"></textarea>
           </div>
           <input class="btn" type="submit" value="Get In Touch" />
         </form>
