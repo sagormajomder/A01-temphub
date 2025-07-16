@@ -92,9 +92,16 @@
   border: 1px solid #f2eded;
 
   transition: 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .feedback__item:hover {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feedback__content {
 }
 .feedback__star {
   display: flex;
