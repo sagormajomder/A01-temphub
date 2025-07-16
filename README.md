@@ -19,7 +19,7 @@ Please follow the below instructions to run this project in your machine:
        git clone https://github.com/sagormajomder/A01-temphub.git
    ```
 
-2. Open the directory "A01-landing-launchpad" into visual studio code and contribute
+2. Open the directory "A01-temphub" into visual studio code and contribute
 3. Install`live server` extension on vscode and run to see the project in browser
 
 The project will be available on http://127.0.0.1:5500/ by default.
